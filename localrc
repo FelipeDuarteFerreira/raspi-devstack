@@ -1,0 +1,5 @@
+FORCE=yes
+disable_service rabbit
+disable_service qpid
+disable_service horizon
+enable_service zeromq
